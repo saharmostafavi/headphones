@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+}
+header {
+  width: 100vw;
+  height: 80vh;
+  /* border: 2px solid red; */
+  background-image: url(../img/airpodslistenwatchhero22.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.header-container {
+  width: 100vw;
+  height: 50vh;
+  /* border: 2px solid yellow; */
+  display: flex;
+}
+.header-text {
+  /* border: 2px solid red; */
+  height: 70%;
+  padding: 100px;
+  padding-left: 200px;
+}
+.header-title {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  animation: header-title 5s forwards;
+}
+.header-span2 {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+
+}
+.highlight {
+  background-color: rgb(240, 196, 84);
+  height: 500px;
+  height: 500px;
+  padding: 12px 20px;
+}
+.header-desc {
+  color: white;
+  width: 300px;
+  padding-top: 20px;
+  animation: header-text  5s forwards;
+  animation-delay: 6s;
+  opacity: 0;
+  animation: header-text forwards 5s;
+  animation-delay: 5s;
+
+}
+.header-decor-line {
+  border: 10px solid rgb(240, 196, 84);
+  height: 100px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  margin-top: 120px;
+  margin-left: 400px;
+  animation: header-title  5s forwards;
+}
+
+/* <!-- ============== header End =============== --> */
+
+.sub-header {
+  height: 30vh;
+  width: 100vw;
+  background-color: #343138;
+}
+.sub-header-text {
+  /* border: 2px solid red; */
+  /* width: 1500px; */
+  padding-top: 50px;
+  margin-left: 60px;
+}
+.sub-header-title {
+  color: white;
+  font-size: 2rem;
+  text-transform: capitalize;
+  width: 700px;
+  padding-bottom: 20px;
+  margin-left: 700px;
+}
+.sub-header-desc {
+  color: white;
+  font-size: 1rem;
+  width: 650px;
+  line-height: 26px;
+  padding: 0px 15px;
+  margin-left: 700px;
+}
+.subheader-decor-line {
+  border: 13px solid rgb(240, 196, 84);
+  height: 100px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  margin-top: -120px;
+  margin-left: 300px;
+}
+/* <!-- ============== subheader end =============== --> */
+.img-decor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 60vh;
+  width: 100vw;
+}
+.img-decor1-section {
+  background-image: url(../img/57d41f4d077dcc3d018b4d7575056311.jpg);
+  background-size: cover;
+  background-position: center;
+  gap: 200px;
+}
+.img-decor1-section-title {
+  /* border: 2px solid purple; */
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: white;
+  margin-bottom: 150px;
+}
+.img-decor-decor-line {
+  border: 13px solid #343138;
+  height: 100px;
+  width: 100px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  margin-bottom: 150px;
+}
+
+/* <!-- ============== img decor 1 end =============== --> */
+
+.products {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fefdfe;
+  display: flex;
+  flex-direction: column;
+}
+/* .product-details{
+    width: 400px;
+    height: 300px;
+    border: 2px solid red;
+} */
+.products-row {
+  width: 1600px;
+  height: 500px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.product-img {
+  height: 320px;
+  width: 300px;
+  /* border: 2px solid black; */
+  object-fit: cover;
+  gap: 25px;
+  padding: 15px;
+}
+.product-details-text2 {
+  background-color: rgb(240, 196, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-details-text-pragraph {
+  padding: 10px;
+}
+.product-details-text1 {
+  background-color: #343138;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  line-height: 20px;
+}
+.product-img-with-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product-img-with-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.product-img-with-text {
+  font-size: 1.5rem;
+  /* border: 3px solid red; */
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.product-img--button {
+  /* width: 100px; */
+  padding: 8px 50px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+  > a {
+    text-decoration: none;
+    color: black;
+  }
+}
+/* <!-- ============== product end =============== --> */
+.img-decor2-section {
+  background-image: url(../img/airpodsinearmikah.jpg);
+  gap: 120px;
+}
+.decor-line {
+  height: 100px;
+  width: 100px;
+}
+.img-decor2-decor-line {
+  border: 12px solid rgb(240, 196, 84);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  margin-bottom: 100px;
+}
+.img-decor2-section-title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #fefdfe;
+  /* border: 2px solid red; */
+  width: 550px;
+  margin-bottom: 100px;
+}
+
+/* <!-- ============== img decor 2 end =============== --> */
+.product-feature {
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.product-feature-desc {
+  height: 500px;
+  width: 500px;
+  background-color: #343138;
+}
+.product-feature-img-details {
+  height: 500px;
+  width: 500px;
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+.product-feature-desc-title {
+  font-size: 2rem;
+  /* border: 2px solid red; */
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 420px;
+  text-transform: capitalize;
+  color: #fefdfe;
+}
+.product-feature-desc-item {
+  padding: 5px 30px;
+}
+.item {
+  color: #fefdfe;
+  margin: 20px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+}
+.feature-desc-button {
+  padding: 7px 20px;
+  border: 2px solid #fefdfe;
+  background-color: #343138;
+  > a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+}
+
+.product-feature-img1 {
+  background-image: url(../img/applewatchairpods.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1 / span 2;
+}
+.product-feature-img2 {
+  background-image: url(../img/AirPods6780x536.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.product-feature-details {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+/* <!-- ============== product feature end =============== --> */
+
+.review {
+  height: 30vh;
+  width: 100vw;
+  background-color: rgb(240, 196, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.review-text {
+  width: 700px;
+}
+.review-title {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.review-decor-line {
+  height: 100px;
+  width: 100px;
+  border: 10px solid #343138;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+/* <!-- ============== review end =============== --> */
+
+.footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: #343138;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/photo_2024-01-31_22-54-22-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+}
+.icons{
+    list-style-type: none;
+}
+.icon-item{
+    margin: 0px 20px;
+    color: white;
+}
+.icon-item:hover{
+   transform: scale(1.5);
+}
+
+@keyframes header-title{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes header-text{
+    0%{
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(50%);
+        opacity: 1;
+    }
+}
